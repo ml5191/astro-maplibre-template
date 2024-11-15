@@ -1,5 +1,5 @@
 - id: 'bikes'
-  label: 'happy Lanes'
+  label: 'Happy Lanes'
   toggle: true  
   visible: false
   data-type: 'geojson'
