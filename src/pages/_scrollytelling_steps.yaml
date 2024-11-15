@@ -1,9 +1,9 @@
-- title: Introduction
-  center: [-74.0060, 40.7128]
-  zoom: 10
+- title: Terrapin is a wetland
+  center: [-73.83092, 40.61328]
+  zoom: 12.47
   pitch: 0
   bearing: 0
-  description: Welcome to the map scrollytelling app. You can set position, zoom, pitch, and bearing via the top-level props.
+  description: The diamondback terrapin, a keystone species in wetlands, is the only turtle in Jamaica Bay adapted to brackish water, thriving in both aquatic and terrestrial environments. Yet human developments—such as bulkheads, railways, airports, and other hardened shorelines—form barriers that restrict terrapins’ essential movement between water, where they feed and mate, and land, where they nest and reproduce.
 
 - title: Section Title - Squirrels in Central Park
   center: [-73.96778, 40.78376]
