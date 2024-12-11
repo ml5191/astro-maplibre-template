@@ -29,12 +29,12 @@
     toggle: false
     visible: true
 
-- title: Polygon Layer
+- title: JFK airport: returning ancestral nesting grounds
   # center: [-73.96778, 40.78376]
-  center: [-74.00739, 40.67930]
-  zoom: 14
+  center: [-73.783671, 40.625721]
+  zoom: 15
   pitch: 0
-  bearing: 20
+  bearing: 0
   description: Now we zoom to a new location. And add a polygon layer of the innundation zone from Hurricane Sandy via GeoJSON endpoint. Layer paint properties are passed (notice they are different from the syntax for the point layer). 
   layers:
   - id: 'sandy'
@@ -49,9 +49,19 @@
 
 
 
-- title: London
-  center: [-0.1278, 51.5074]
-  zoom: 8
+- title: Cross Bay blvd.:creating new nesting grounds
+  center: [-73.822132, 40.603069]
+  zoom: 16.21
+  pitch: 0
+  bearing: 0
+  description: You can change the position of the overlay div using the position attribute, and can add images using the media attribute.
+  media: https://img.atlasobscura.com/OGZXBPY6hP2AXBi-M97MjAYHr46wOlG4iPA1pz2owEI/rt:fit/h:390/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy85NTI3/NzEyMWY1NWM5ZWIx/ZDRfMTM3ODE0MjA1/OTNfMjQ0ZmUxZDJj/OV9rLmpwZw.jpg
+  position: right
+
+
+- title: West Pond: human and terrapin coexisting
+  center: [-73.828809, 40.614392]
+  zoom: 16.51
   pitch: 30
   bearing: -10
   description: You can change the position of the overlay div using the position attribute, and can add images using the media attribute.
