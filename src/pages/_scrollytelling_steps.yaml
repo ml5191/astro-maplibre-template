@@ -5,12 +5,12 @@
   bearing: 0
   description: The diamondback terrapin, a keystone species in wetlands, is the only turtle in Jamaica Bay adapted to brackish water, thriving in both aquatic and terrestrial environments. Yet human developments—such as bulkheads, railways, airports, and other hardened shorelines—form barriers that restrict terrapins’ essential movement between water, where they feed and mate, and land, where they nest and reproduce.
 
-- title: Section Title - Squirrels in Central Park
+- title: Diamondback Terrapin land use
   center: [-73.83092, 40.61328]
   zoom: 12.47
   pitch: 0
   bearing: 00
-  description: Now we zoom in. A layer is added from a geojson  Layer paint properties are passed, and layers are set to turn off when you continue scrolling via the `persist:false` attribute.
+  description: Showing the land use of the species
   
   layers:
   # id of layer
