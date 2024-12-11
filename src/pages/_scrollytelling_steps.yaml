@@ -47,8 +47,6 @@
       fill-color: '#c1e2e6'
       fill-opacity: 0.8
 
-
-
 - title: Cross Bay blvd.:creating new nesting grounds
   center: [-73.822132, 40.603069]
   zoom: 16.21
@@ -57,7 +55,6 @@
   description: You can change the position of the overlay div using the position attribute, and can add images using the media attribute.
   media: https://img.atlasobscura.com/OGZXBPY6hP2AXBi-M97MjAYHr46wOlG4iPA1pz2owEI/rt:fit/h:390/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy85NTI3/NzEyMWY1NWM5ZWIx/ZDRfMTM3ODE0MjA1/OTNfMjQ0ZmUxZDJj/OV9rLmpwZw.jpg
   position: right
-
 
 - title: West Pond: human and terrapin coexisting
   center: [-73.828809, 40.614392]
