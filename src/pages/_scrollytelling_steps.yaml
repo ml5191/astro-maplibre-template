@@ -5,7 +5,7 @@
   bearing: 0
   description: Diamondback terrapin, keystone species of the wetlands, is the only turtle species in Jamaica Bay that lives in brackish water.
   media: "./img/turtle detailed drawing_solid line and color-03 - Copy.png"
-  position: right
+  position: bottom-left
 
 - title: Terrapin Land Use Map - Feed, Mate, and Nest
   center: [-73.82241, 40.61467]
@@ -51,20 +51,20 @@
 
 
 
-- title: London
-  center: [-0.1278, 51.5074]
-  zoom: 8
+- title: JFK Airport - xxx
+  center: [-73.785447, 40.625839]
+  zoom: 16
   pitch: 30
-  bearing: -10
+  bearing: 0
   description: You can change the position of the overlay div using the position attribute, and can add images using the media attribute.
   media: https://img.atlasobscura.com/OGZXBPY6hP2AXBi-M97MjAYHr46wOlG4iPA1pz2owEI/rt:fit/h:390/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy85NTI3/NzEyMWY1NWM5ZWIx/ZDRfMTM3ODE0MjA1/OTNfMjQ0ZmUxZDJj/OV9rLmpwZw.jpg
   position: right
 
-- title: London
-  center: [-0.1278, 54]
-  zoom: 8
+- title: Cross Bay Blvd. - xxx
+  center: [-73.821538, 40.602717]
+  zoom: 16.34
   pitch: 30
-  bearing: -10
+  bearing: 0
   description: You can change the position of the overlay div using the position attribute, and can add images using the media attribute.
   media: "./img/fisk02.jpg"
   position: right
