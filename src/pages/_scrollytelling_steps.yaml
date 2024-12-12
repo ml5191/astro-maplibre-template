@@ -43,14 +43,16 @@
       
   - id: 'inaccessible area'
   label: 'inaccessible area'
-  url: './img/inaccessable_area.gif'
-  coordinates: [[-73.940, 40.684],
-                [-73.726, 40.684],
-                [-73.726, 40.547],
-                [-73.940, 40.547]]
+  visible: true
+  url: './img/inaccessable_area_2.png'
+  coordinates: [[-73.940, 40.684],  # Top-left
+               [-73.726, 40.684],  # Top-right
+               [-73.726, 40.547],  # Bottom-right
+               [-73.940, 40.547]]  # Bottom-left
+
   data-type: 'image'
   layer-type: 'image'
-  persist: false
+  persist: true
   
   
 
