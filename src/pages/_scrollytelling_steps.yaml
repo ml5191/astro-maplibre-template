@@ -24,7 +24,7 @@
     layer-type: 'circle'
     persist: true
     paint:
-      circle-radius: 4
+      circle-radius: 3
       circle-color: '#a1a76b'
       circle-opacity: 0.8
       
@@ -39,7 +39,7 @@
     layer-type: 'circle'
     persist: true
     paint:
-      circle-radius: 4
+      circle-radius: 3
       circle-color: '#9DBECE'
       circle-opacity: 0.8
       
@@ -50,7 +50,7 @@
     layer-type: 'circle'
     persist: true
     paint:
-      circle-radius: 4
+      circle-radius: 3
       circle-color: '#E4D353'
       circle-opacity: 0.8    
       
@@ -98,6 +98,16 @@
     paint:
       line-color: ['get','shore_color_val']
       line-width: 5
+  - id: 'inaccessible area'
+    url: './data/inaccessable area.geojson'
+    type: 'circle'
+    data-type: 'geojson'
+    layer-type: 'circle'
+    persist: true
+    paint:
+      circle-radius: 2
+      circle-color: '#BF5365'
+      circle-opacity: 0.8 
 
 - title: Cross Bay Blvd. - xxx
   center: [-73.821538, 40.602717]
@@ -116,7 +126,17 @@
     paint:
       line-color: ['get','shore_color_val']
       line-width: 5
-
+  - id: 'inaccessible area'
+    url: './data/inaccessable area.geojson'
+    type: 'circle'
+    data-type: 'geojson'
+    layer-type: 'circle'
+    persist: true
+    paint:
+      circle-radius: 2
+      circle-color: '#BF5365'
+      circle-opacity: 0.8 
+      
 - title: West Pond - xxx
   center: [-73.830221, 40.614832]
   zoom: 16.41
@@ -134,3 +154,13 @@
     paint:
       line-color: ['get','shore_color_val']
       line-width: 5
+  - id: 'inaccessible area'
+    url: './data/inaccessable area.geojson'
+    type: 'circle'
+    data-type: 'geojson'
+    layer-type: 'circle'
+    persist: true
+    paint:
+      circle-radius: 2
+      circle-color: '#BF5365'
+      circle-opacity: 0.8 
