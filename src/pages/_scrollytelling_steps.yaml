@@ -25,6 +25,21 @@
       fill-color: '#a1a76b'
       fill-opacity: 0.9
       
+  - id: 'mating area'
+  # path to dataset 
+  # note anything uploaded in the public/data folder will be uploaded to your site at url/data/file.png
+    url: './data/mating_area.geojson'
+  # type of symbol
+    type: 'circle'
+  # type of symbol
+    data-type: 'geojson'
+    layer-type: 'circle'
+    persist: true
+    paint:
+      circle-radius: 5
+      circle-color: '#826260'
+      circle-opacity: 0.8
+      
 - title: Barriers to Vital Nesting Grounds
   center: [-73.82241, 40.61467]
   zoom: 12.5
