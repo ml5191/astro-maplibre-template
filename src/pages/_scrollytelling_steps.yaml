@@ -87,7 +87,7 @@
   pitch: 0
   bearing: 0
   description: You can change the position of the overlay div using the position attribute, and can add images using the media attribute.
- media: "./img/terrapin crossing airport.jpg"
+  media: "./img/terrapin crossing airport.jpg"
   position: bottom-left
   layers:
   - id: 'shoreline_type'
