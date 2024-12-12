@@ -16,7 +16,7 @@
   
   layers:
   - id: 'feeding area'
-    url: './data/feeding_area_dot grid.geojsonn'
+    url: './data/feeding_area_dot grid.geojson'
     type: 'circle'
     data-type: 'geojson'
     layer-type: 'circle'
@@ -42,7 +42,7 @@
       circle-opacity: 0.8
       
   - id: 'nesting area'
-    url: './data/nesting_area_dot grid.geojsonn'
+    url: './data/nesting_area_dot grid.geojson'
     type: 'circle'
     data-type: 'geojson'
     layer-type: 'circle'
