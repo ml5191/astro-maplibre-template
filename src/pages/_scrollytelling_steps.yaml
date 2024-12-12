@@ -4,6 +4,8 @@
   pitch: 0
   bearing: 0
   description: Diamondback terrapin, keystone species of the wetlands, is the only turtle species in Jamaica Bay that lives in brackish water.
+  media: "./img/turtle detailed drawing_solid line and color-03 - Copy.png"
+  position: right
 
 - title: Terrapin Land Use Map - Feed, Mate, and Nest
   center: [-73.82241, 40.61467]
