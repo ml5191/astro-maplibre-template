@@ -36,8 +36,8 @@
     layer-type: 'circle'
     persist: true
     paint:
-      circle-radius: 5
-      circle-color: '#826260'
+      circle-radius: 4
+      circle-color: '6082B2'
       circle-opacity: 0.8
       
 - title: Barriers to Vital Nesting Grounds
