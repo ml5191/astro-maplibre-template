@@ -1,63 +1,40 @@
-- title: Terrapin is a wetland
-  center: [-73.83092, 40.61328]
-  zoom: 12.47
+- title: Introduction
+  center: [-74.0060, 40.7128]
+  zoom: 10
   pitch: 0
   bearing: 0
-  description: The diamondback terrapin, a keystone species in wetlands, is the only turtle in Jamaica Bay adapted to brackish water, thriving in both aquatic and terrestrial environments. Yet human developments—such as bulkheads, railways, airports, and other hardened shorelines—form barriers that restrict terrapins’ essential movement between water, where they feed and mate, and land, where they nest and reproduce.
+  description: Welcome to the map scrollytelling app. You can set position, zoom, pitch, and bearing via the top-level props.
 
-- title: Diamondback Terrapin land use
-  center: [-73.83092, 40.61328]
-  zoom: 12.47
+- title: Section Title - Squirrels in Central Park
+  center: [-73.96778, 40.78376]
+  zoom: 14
   pitch: 0
-  bearing: 00
-  description: Showing the land use of the species
+  bearing: 20
+  description: Now we zoom in. A layer is added from a geojson  Layer paint properties are passed, and layers are set to turn off when you continue scrolling via the `persist:false` attribute.
   
   layers:
   # id of layer
-  - id: 'shoreline'
+  - id: 'squirrel-census'
   # path to dataset 
   # note anything uploaded in the public/data folder will be uploaded to your site at url/data/file.png
-    url: './data/shoreline.geojson'
+    url: './data/squirrel20241021.geojson'
   # type of symbol
-    type: 'line'
-  # type of symbol
-    data-type: 'geojson'
-    layer-type: "line"
-    paint:
-      line-color: "#000000"
-      line-width: 6
-    toggle: false
-    visible: true
-    
-- title: Hard shorelines causing inaccessability to terrapin nesting
-  center: [-73.83092, 40.61328]
-  zoom: 12.47
-  pitch: 0
-  bearing: 00
-  description: Human constructions and developments—such as bulkhead houses, railroads, airports, and other hard shorelines and surfaces—form barriers that prevent terrapins from moving between water and land. This poses a significant challenge, as land is essential for their nesting and reproduction.
-  
-  layers:
-  # id of layer
-  - id: 'shoreline type'
-  # path to dataset 
-  # note anything uploaded in the public/data folder will be uploaded to your site at url/data/file.png
-    url: './data/shoreline type.geojson'
-  # type of symbol
-    type: 'line'
+    type: 'circle'
   # type of symbol
     data-type: 'geojson'
-    layer-type: "line"
+    layer-type: 'circle'
+    persist: true
     paint:
-      line-color: ['get','shore_color_val']
-      line-width: 4
-    toggle: false
-    visible: true
-    
-- title: JFK airport: returning ancestral nesting grounds
-  center: [-73.783671, 40.625721]
-  zoom: 15
+      circle-radius: 5
+      circle-color: '#826260'
+      circle-opacity: 0.8
+
+- title: Polygon Layer
+  # center: [-73.96778, 40.78376]
+  center: [-74.00739, 40.67930]
+  zoom: 14
   pitch: 0
-  bearing: 0
+  bearing: 20
   description: Now we zoom to a new location. And add a polygon layer of the innundation zone from Hurricane Sandy via GeoJSON endpoint. Layer paint properties are passed (notice they are different from the syntax for the point layer). 
   layers:
   - id: 'sandy'
@@ -70,18 +47,11 @@
       fill-color: '#c1e2e6'
       fill-opacity: 0.8
 
-- title: Cross Bay blvd.:creating new nesting grounds
-  center: [-73.822132, 40.603069]
-  zoom: 16.21
-  pitch: 0
-  bearing: 0
-  description: You can change the position of the overlay div using the position attribute, and can add images using the media attribute.
-  media: https://img.atlasobscura.com/OGZXBPY6hP2AXBi-M97MjAYHr46wOlG4iPA1pz2owEI/rt:fit/h:390/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy85NTI3/NzEyMWY1NWM5ZWIx/ZDRfMTM3ODE0MjA1/OTNfMjQ0ZmUxZDJj/OV9rLmpwZw.jpg
-  position: right
 
-- title: West Pond: human and terrapin coexisting
-  center: [-73.828809, 40.614392]
-  zoom: 16.51
+
+- title: London
+  center: [-0.1278, 51.5074]
+  zoom: 8
   pitch: 30
   bearing: -10
   description: You can change the position of the overlay div using the position attribute, and can add images using the media attribute.
