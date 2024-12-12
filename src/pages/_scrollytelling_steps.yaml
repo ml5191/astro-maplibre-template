@@ -44,7 +44,7 @@
   - id: 'inaccessible area'
   label: 'inaccessible area'
   visible: true
-  url: './img/fisk02.jpg'
+  url: 'ml5191.3drrztri'
   coordinates: [[-73.940, 40.684],  # Top-left
                [-73.726, 40.684],  # Top-right
                [-73.726, 40.547],  # Bottom-right
