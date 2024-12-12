@@ -40,14 +40,14 @@
   description: However, human constructions and hardened shorelines, such as bulkhead houses, ripraps, and airports, create barriers that prevent terrapins from moving between water and land. This is significant because land is essential for their nesting and reproduction. 
   layers:
   - id: 'sandy'
-    url: 'https://data.cityofnewyork.us/resource/5xsi-dfpx.geojson'
-    type: 'fill'
+    url: './data/shoreline_type.geojson'
+    type: 'line'
     data-type: 'geojson'
-    layer-type: 'fill'
+    layer-type: 'line'
     persist: false
     paint:
-      fill-color: '#c1e2e6'
-      fill-opacity: 0.8
+      line-color: ['get','shore_color_val']
+      line-width: 3
 
 
 
