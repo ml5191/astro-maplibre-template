@@ -15,19 +15,14 @@
   description: Diamondback terrapins inhabit both water and land. They feed in salt marshes and mate in shallow waters. Every year, during late spring and early summer, female terrapins in Jamaica Bay come ashore to find sandy ground for nesting, This map illustrates Jamaica Bay's land use from the terrapin's perspective, highlighting the critical areas essential to their life cycle.
   
   layers:
-  # id of layer
   - id: 'feeding area'
-  # path to dataset 
-  # note anything uploaded in the public/data folder will be uploaded to your site at url/data/file.png
     url: './data/feeding area.geojson'
-  # type of symbol
     type: 'fill'
-  # type of symbol
     data-type: 'geojson'
     layer-type: 'fill'
     persist: false
     paint:
-      fill-color: '#a1a76b'
+      fill-color: '#c1e2e6'
       fill-opacity: 0.8
       
 - title: Barriers to Vital Nesting Grounds
@@ -69,6 +64,15 @@
   description: You can change the position of the overlay div using the position attribute, and can add images using the media attribute.
   media: https://img.atlasobscura.com/OGZXBPY6hP2AXBi-M97MjAYHr46wOlG4iPA1pz2owEI/rt:fit/h:390/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy85NTI3/NzEyMWY1NWM5ZWIx/ZDRfMTM3ODE0MjA1/OTNfMjQ0ZmUxZDJj/OV9rLmpwZw.jpg
   position: bottom-left
+  layers:
+  - id: 'shoreline_type'
+    url: './data/shoreline_type.geojson'
+    type: 'line'
+    data-type: 'geojson'
+    layer-type: 'line'
+    paint:
+      line-color: ['get','shore_color_val']
+      line-width: 3.5
 
 - title: Cross Bay Blvd. - xxx
   center: [-73.821538, 40.602717]
@@ -78,6 +82,15 @@
   description: You can change the position of the overlay div using the position attribute, and can add images using the media attribute.
   media: "./img/fisk02.jpg"
   position: left
+  layers:
+  - id: 'shoreline_type'
+    url: './data/shoreline_type.geojson'
+    type: 'line'
+    data-type: 'geojson'
+    layer-type: 'line'
+    paint:
+      line-color: ['get','shore_color_val']
+      line-width: 3.5
 
 - title: West Pond - xxx
   center: [-73.830221, 40.614832]
@@ -87,3 +100,12 @@
   description: You can change the position of the overlay div using the position attribute, and can add images using the media attribute.
   media: "./img/fisk02.jpg"
   position: left
+  layers:
+  - id: 'shoreline_type'
+    url: './data/shoreline_type.geojson'
+    type: 'line'
+    data-type: 'geojson'
+    layer-type: 'line'
+    paint:
+      line-color: ['get','shore_color_val']
+      line-width: 3.5
