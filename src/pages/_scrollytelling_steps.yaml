@@ -1,5 +1,5 @@
 - title: Terrapin is a Wetland
-  center: [-73.8271, 40.6109]
+  center: [-73.8763, 40.6056]
   zoom: 11.51
   pitch: 0
   bearing: 0
@@ -58,7 +58,7 @@
   bearing: 0
   description: You can change the position of the overlay div using the position attribute, and can add images using the media attribute.
   media: https://img.atlasobscura.com/OGZXBPY6hP2AXBi-M97MjAYHr46wOlG4iPA1pz2owEI/rt:fit/h:390/q:81/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy85NTI3/NzEyMWY1NWM5ZWIx/ZDRfMTM3ODE0MjA1/OTNfMjQ0ZmUxZDJj/OV9rLmpwZw.jpg
-  position: right
+  position: bottom-left
 
 - title: Cross Bay Blvd. - xxx
   center: [-73.821538, 40.602717]
@@ -67,4 +67,4 @@
   bearing: 0
   description: You can change the position of the overlay div using the position attribute, and can add images using the media attribute.
   media: "./img/fisk02.jpg"
-  position: right
+  position: left
