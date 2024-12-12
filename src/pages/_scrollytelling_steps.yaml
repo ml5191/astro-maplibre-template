@@ -22,8 +22,8 @@
     layer-type: 'fill'
     persist: false
     paint:
-      fill-color: '#FF0000'
-      fill-opacity: 1.0
+      fill-color: '#a1a76b'
+      fill-opacity: 0.9
       
 - title: Barriers to Vital Nesting Grounds
   # center: [-73.96778, 40.78376]
@@ -49,10 +49,10 @@
   layer-type: 'image'
   persist: false
   url: './img/inaccessable are-02.png'
-  coordinates: [[-60.763, 45.043],
-                [-58.975, 45.043],
-                [-58.975, 44.893],
-                [-60.763, 44.893]]
+  coordinates: [[-73.940, 40.684],
+                [-73.726, 40.684],
+                [-73.726, 40.547],
+                [-73.940, 40.547]]
   
 
 
