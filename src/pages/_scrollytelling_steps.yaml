@@ -42,13 +42,16 @@
       line-width: 3.5
       
   - id: 'inaccessible area'
-  label: 'inaccessible area'
-  visible: true
-  img:
-  - src: "./img/inaccessable_area_compressed.tif"
-
-  
-
+    label: 'inaccessible area'
+    toggle: true  
+    visible: false
+    data-type: 'image'
+    layer-type: 'image'
+    url: 'https://docs.mapbox.com/mapbox-gl-js/assets/radar.gif'
+    coordinates: [[-73.940, 40.684],
+                  [-73.726, 40.684],
+                  [-73.726, 40.],
+                  [-73.940, 37.936]]
 
 - title: JFK Airport - xxx
   center: [-73.785447, 40.625839]
