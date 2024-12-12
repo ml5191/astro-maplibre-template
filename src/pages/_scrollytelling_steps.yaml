@@ -16,21 +16,20 @@
   
   layers:
   # id of layer
-  - id: 'squirrel-census'
+  - id: 'feeding area'
   # path to dataset 
   # note anything uploaded in the public/data folder will be uploaded to your site at url/data/file.png
-    url: './data/squirrel20241021.geojson'
+    url: './data/feeding area.geojson'
   # type of symbol
-    type: 'circle'
+    type: 'fill'
   # type of symbol
     data-type: 'geojson'
-    layer-type: 'circle'
-    persist: true
+    layer-type: 'fill'
+    persist: false
     paint:
-      circle-radius: 5
-      circle-color: '#826260'
-      circle-opacity: 0.8
-
+      fill-color: '#a1a76b'
+      fill-opacity: 0.8
+      
 - title: Barriers to Vital Nesting Grounds
   # center: [-73.96778, 40.78376]
   center: [-73.82241, 40.61467]
