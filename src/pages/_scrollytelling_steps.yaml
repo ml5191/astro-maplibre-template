@@ -43,7 +43,6 @@
       
   - id: 'inaccessible area'
     label: 'inaccessible area'
-    toggle: true  
     visible: false
     data-type: 'image'
     layer-type: 'image'
