@@ -13,7 +13,7 @@
   pitch: 0
   bearing: 0
   description: Diamondback terrapins inhabit both water and land. They feed in salt marshes and mate in shallow waters. Every year, during late spring and early summer, female terrapins in Jamaica Bay come ashore to find sandy ground for nesting, This map illustrates Jamaica Bay's land use from the terrapin's perspective, highlighting the critical areas essential to their life cycle.
-  media: "./img/1124 land use map_legend-03.png"
+  media: "./img/1124 land use map_legend-03-03.png"
   position: bottom-left
   
   layers:
@@ -71,15 +71,15 @@
       line-width: 3.5
       
   - id: 'inaccessible area'
-    label: 'inaccessible area'
-    visible: false
-    data-type: 'image'
-    layer-type: 'image'
-    url: 'https://docs.mapbox.com/mapbox-gl-js/assets/radar.gif'
-    coordinates: [[-73.940, 40.684],
-                  [-73.726, 40.684],
-                  [-73.726, 40.],
-                  [-73.940, 37.936]]
+    url: './data/inaccessable area.geojson'
+    type: 'circle'
+    data-type: 'geojson'
+    layer-type: 'circle'
+    persist: true
+    paint:
+      circle-radius: 2
+      circle-color: '#BF5365'
+      circle-opacity: 0.8 
 
 - title: JFK Airport - xxx
   center: [-73.785447, 40.625839]
