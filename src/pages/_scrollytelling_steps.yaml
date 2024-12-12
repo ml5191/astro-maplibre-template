@@ -16,14 +16,14 @@
   
   layers:
   - id: 'feeding area'
-    url: './data/feeding area.geojson'
+    url: './data/feeding_area.geojson'
     type: 'fill'
     data-type: 'geojson'
     layer-type: 'fill'
     persist: false
     paint:
-      fill-color: '#c1e2e6'
-      fill-opacity: 0.8
+      fill-color: '#FF0000'
+      fill-opacity: 1.0
       
 - title: Barriers to Vital Nesting Grounds
   # center: [-73.96778, 40.78376]
