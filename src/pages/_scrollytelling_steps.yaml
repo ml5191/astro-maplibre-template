@@ -28,7 +28,31 @@
       line-width: 6
     toggle: false
     visible: true
-
+    
+- title: Hard shorelines causing inaccessability to terrapin nesting
+  center: [-73.83092, 40.61328]
+  zoom: 12.47
+  pitch: 0
+  bearing: 00
+  description: Human constructions and developments—such as bulkhead houses, railroads, airports, and other hard shorelines and surfaces—form barriers that prevent terrapins from moving between water and land. This poses a significant challenge, as land is essential for their nesting and reproduction.
+  
+  layers:
+  # id of layer
+  - id: 'shoreline'
+  # path to dataset 
+  # note anything uploaded in the public/data folder will be uploaded to your site at url/data/file.png
+    url: './data/shoreline.geojson'
+  # type of symbol
+    type: 'line'
+  # type of symbol
+    data-type: 'geojson'
+    layer-type: "line"
+    paint:
+      line-color: "#000000"
+      line-width: 6
+    toggle: false
+    visible: true
+    
 - title: JFK airport: returning ancestral nesting grounds
   # center: [-73.96778, 40.78376]
   center: [-73.783671, 40.625721]
