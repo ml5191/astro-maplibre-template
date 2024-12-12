@@ -45,7 +45,7 @@
   label: 'inaccessible area'
   visible: true
   img:
-    str: "./img/inaccessable_area_compressed.tif"
+  - src: "./img/inaccessable_area_compressed.tif"
 
   
 
