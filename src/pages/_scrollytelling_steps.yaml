@@ -54,7 +54,6 @@
     visible: true
     
 - title: JFK airport: returning ancestral nesting grounds
-  # center: [-73.96778, 40.78376]
   center: [-73.783671, 40.625721]
   zoom: 15
   pitch: 0
