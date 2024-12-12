@@ -8,7 +8,7 @@
   position: bottom-left
 
 - title: Terrapin Land Use Map - Feed, Mate, and Nest
-  center: [-73.82241, 40.61467]
+  center: [-73.83996, 40.61467]
   zoom: 12.5
   pitch: 0
   bearing: 0
@@ -55,7 +55,7 @@
       circle-opacity: 0.8    
       
 - title: Barriers to Vital Nesting Grounds
-  center: [-73.82241, 40.61467]
+  center: [-73.83996, 40.61467]
   zoom: 12.5
   pitch: 0
   bearing: 0
@@ -82,7 +82,18 @@
       circle-color: '#BF5365'
       circle-opacity: 0.8 
 
-- title: JFK Airport - xxx
+  - id: 'nesting area'
+    url: './data/nesting_area_dot grid.geojson'
+    type: 'circle'
+    data-type: 'geojson'
+    layer-type: 'circle'
+    persist: true
+    paint:
+      circle-radius: 3
+      circle-color: '#E4D353'
+      circle-opacity: 0.6    
+
+- title: JFK Airport
   center: [-73.785447, 40.625839]
   zoom: 16
   pitch: 0
@@ -110,7 +121,7 @@
       circle-color: '#BF5365'
       circle-opacity: 0.8 
 
-- title: Cross Bay Blvd. - xxx
+- title: Cross Bay Blvd.
   center: [-73.821538, 40.602717]
   zoom: 16.34
   pitch: 0
@@ -138,7 +149,7 @@
       circle-color: '#BF5365'
       circle-opacity: 0.8 
       
-- title: West Pond - xxx
+- title: West Pond
   center: [-73.830221, 40.614832]
   zoom: 16.41
   pitch: 0
