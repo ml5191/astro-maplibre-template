@@ -1,9 +1,9 @@
-- title: Introduction
+- title: Terrapin is a wetland
   center: [-74.0060, 40.7128]
   zoom: 10
   pitch: 0
   bearing: 0
-  description: Welcome to the map scrollytelling app. You can set position, zoom, pitch, and bearing via the top-level props.
+  description: Diamondback terrapin, keystone species of the wetlands, is the only turtle species in Jamaica Bay that lives in brackish water.
 
 - title: Section Title - Squirrels in Central Park
   center: [-73.96778, 40.78376]
