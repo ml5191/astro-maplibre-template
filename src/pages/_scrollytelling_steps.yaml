@@ -68,3 +68,12 @@
   description: You can change the position of the overlay div using the position attribute, and can add images using the media attribute.
   media: "./img/fisk02.jpg"
   position: left
+
+- title: West Pond - xxx
+  center: [-73.830221, 40.614832]
+  zoom: 16.41
+  pitch: 0
+  bearing: 0
+  description: You can change the position of the overlay div using the position attribute, and can add images using the media attribute.
+  media: "./img/fisk02.jpg"
+  position: left
