@@ -38,18 +38,18 @@
   
   layers:
   # id of layer
-  - id: 'shoreline'
+  - id: 'shoreline type'
   # path to dataset 
   # note anything uploaded in the public/data folder will be uploaded to your site at url/data/file.png
-    url: './data/shoreline.geojson'
+    url: './data/shoreline type.geojson'
   # type of symbol
     type: 'line'
   # type of symbol
     data-type: 'geojson'
     layer-type: "line"
     paint:
-      line-color: "#000000"
-      line-width: 6
+      line-color: ['get','shore_color_val']
+      line-width: 4
     toggle: false
     visible: true
     
