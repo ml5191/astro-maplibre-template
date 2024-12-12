@@ -1,11 +1,11 @@
-- title: Terrapin is a wetland
+- title: Terrapin is a Wetland
   center: [-74.0060, 40.7128]
   zoom: 10
   pitch: 0
   bearing: 0
   description: Diamondback terrapin, keystone species of the wetlands, is the only turtle species in Jamaica Bay that lives in brackish water.
 
-- title: Terrapin land use map - feed, mate, and nest
+- title: Terrapin Land Use Map - Feed, Mate, and Nest
   center: [-73.96778, 40.78376]
   zoom: 14
   pitch: 0
@@ -29,13 +29,13 @@
       circle-color: '#826260'
       circle-opacity: 0.8
 
-- title: Polygon Layer
+- title: Barriers to Vital Nesting Grounds
   # center: [-73.96778, 40.78376]
   center: [-74.00739, 40.67930]
   zoom: 14
   pitch: 0
   bearing: 20
-  description: Now we zoom to a new location. And add a polygon layer of the innundation zone from Hurricane Sandy via GeoJSON endpoint. Layer paint properties are passed (notice they are different from the syntax for the point layer). 
+  description: However, human constructions and hardened shorelines, such as bulkhead houses, ripraps, and airports, create barriers that prevent terrapins from moving between water and land. This is significant because land is essential for their nesting and reproduction. 
   layers:
   - id: 'sandy'
     url: 'https://data.cityofnewyork.us/resource/5xsi-dfpx.geojson'
