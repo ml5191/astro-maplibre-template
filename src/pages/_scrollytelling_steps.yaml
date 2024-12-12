@@ -43,7 +43,6 @@
     type: 'line'
     data-type: 'geojson'
     layer-type: 'line'
-    persist: true
     paint:
       line-color: ['get','shore_color_val']
       line-width: 3.5
