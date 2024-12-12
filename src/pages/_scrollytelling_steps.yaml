@@ -16,14 +16,15 @@
   
   layers:
   - id: 'feeding area'
-    url: './data/feeding_area.geojson'
-    type: 'fill'
+    url: './data/feeding_area_dot grid.geojsonn'
+    type: 'circle'
     data-type: 'geojson'
-    layer-type: 'fill'
-    persist: false
+    layer-type: 'circle'
+    persist: true
     paint:
-      fill-color: '#a1a76b'
-      fill-opacity: 0.9
+      circle-radius: 4
+      circle-color: '#a1a76b'
+      circle-opacity: 0.8
       
   - id: 'mating area'
   # path to dataset 
@@ -39,6 +40,17 @@
       circle-radius: 4
       circle-color: '#9DBECE'
       circle-opacity: 0.8
+      
+  - id: 'nesting area'
+    url: './data/nesting_area_dot grid.geojsonn'
+    type: 'circle'
+    data-type: 'geojson'
+    layer-type: 'circle'
+    persist: true
+    paint:
+      circle-radius: 4
+      circle-color: '#E4D353'
+      circle-opacity: 0.8    
       
 - title: Barriers to Vital Nesting Grounds
   center: [-73.82241, 40.61467]
