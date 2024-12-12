@@ -44,12 +44,11 @@
   - id: 'inaccessible area'
   label: 'inaccessible area'
   visible: true
-  url: './img/inaccessable_area_2.png'
+  url: 'https://drive.google.com/file/d/1exYXUosriGBWCF1UacKirff70jf_2S9K/view?usp=drive_link'
   coordinates: [[-73.940, 40.684],  # Top-left
                [-73.726, 40.684],  # Top-right
                [-73.726, 40.547],  # Bottom-right
                [-73.940, 40.547]]  # Bottom-left
-
   data-type: 'image'
   layer-type: 'image'
   persist: true
