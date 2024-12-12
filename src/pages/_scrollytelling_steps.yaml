@@ -48,7 +48,19 @@
     paint:
       line-color: ['get','shore_color_val']
       line-width: 3.5
-
+      
+  - id: 'inaccessible area'
+  label: 'inaccessible area'
+  visible: false
+  data-type: 'image'
+  layer-type: 'image'
+  persist: false
+  url: './img/inaccessable are-02.png'
+  coordinates: [[-60.763, 45.043],
+                [-58.975, 45.043],
+                [-58.975, 44.893],
+                [-60.763, 44.893]]
+  
 
 
 - title: JFK Airport - xxx
