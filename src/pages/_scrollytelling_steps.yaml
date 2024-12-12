@@ -13,6 +13,8 @@
   pitch: 0
   bearing: 0
   description: Diamondback terrapins inhabit both water and land. They feed in salt marshes and mate in shallow waters. Every year, during late spring and early summer, female terrapins in Jamaica Bay come ashore to find sandy ground for nesting, This map illustrates Jamaica Bay's land use from the terrapin's perspective, highlighting the critical areas essential to their life cycle.
+  media: "./img/1124 land use map_legend-03.png"
+  position: bottom-left
   
   layers:
   - id: 'feeding area'
