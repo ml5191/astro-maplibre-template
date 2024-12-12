@@ -128,7 +128,6 @@
   bearing: 0
   description: 
   media: "./img/bulkhead houses.jpg"
-  media: "./img/1009 comic_scale up 200-01.jpg"
   position: left
   layers:
   - id: 'shoreline_type'
