@@ -5,12 +5,12 @@
   bearing: 0
   description: Diamondback terrapin, keystone species of the wetlands, is the only turtle species in Jamaica Bay that lives in brackish water.
 
-- title: Section Title - Squirrels in Central Park
+- title: Terrapin land use map - feed, mate, and nest
   center: [-73.96778, 40.78376]
   zoom: 14
   pitch: 0
   bearing: 20
-  description: Now we zoom in. A layer is added from a geojson  Layer paint properties are passed, and layers are set to turn off when you continue scrolling via the `persist:false` attribute.
+  description: Diamondback terrapins inhabit both water and land. They feed in salt marshes and mate in shallow waters. Every year, during late spring and early summer, female terrapins in Jamaica Bay come ashore to find sandy ground for nesting, This map illustrates Jamaica Bay's land use from the terrapin's perspective, highlighting the critical areas essential to their life cycle.
   
   layers:
   # id of layer
