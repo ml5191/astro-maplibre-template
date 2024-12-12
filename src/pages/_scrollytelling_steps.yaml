@@ -43,7 +43,7 @@
       
   - id: 'inaccessible area'
   label: 'inaccessible area'
-  url: './img/inaccessable are-02.png'
+  url: './img/inaccessable_area.gif'
   coordinates: [[-73.940, 40.684],
                 [-73.726, 40.684],
                 [-73.726, 40.547],
