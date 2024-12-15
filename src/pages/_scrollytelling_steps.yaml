@@ -99,7 +99,7 @@
   pitch: 0
   bearing: 0
   description: JFK Airport has long been a significant nesting site for diamondback terrapins. Constructed on sandy grounds created by transported fill, the airport inadvertently provides ideal nesting conditions. However, this has led to frequent terrapin incursions onto the runways in search of nesting sites. These incidents not only disrupt air traffic but also pose significant risks to the terrapins’ safety.
-  media: "./img/bulkhead houses-01.png"
+  media: "./img/bulkhead houses-01 smaller.jpg"
   position: left
   layers:
   - id: 'shoreline_type'
