@@ -99,7 +99,7 @@
   pitch: 0
   bearing: 0
   description: JFK Airport has long been a significant nesting site for diamondback terrapins. Constructed on sandy grounds created by transported fill, the airport inadvertently provides ideal nesting conditions. However, this has led to frequent terrapin incursions onto the runways in search of nesting sites. These incidents not only disrupt air traffic but also pose significant risks to the terrapins’ safety.
-  media: "./img/terrapin crossing airport.jpg"
+  media: "./img/three sites-01.png"
   position: bottom-left
   layers:
   - id: 'shoreline_type'
@@ -127,7 +127,7 @@
   pitch: 0
   bearing: 0
   description: Along Cross Bay Boulevard, residential properties have replaced natural shoreline transitions with bulkheads. These vertical barriers, designed to protect homes, have eliminated the gradual slopes that once facilitated a seamless connection between land and water. As a result, terrapins face significant challenges accessing the shore.
-  media: "./img/bulkhead houses.jpg"
+  media: "./img/three sites-02.png"
   position: left
   layers:
   - id: 'shoreline_type'
@@ -155,7 +155,7 @@
   pitch: 0
   bearing: 0
   description: At West Pond Wildlife Refuge, an area free from human development and hard shorelines, a different threat emerges. The absence of human presence at night creates opportunities for illegal poaching, which endangers the terrapin population by exploiting this critical nesting habitat.
-  media: "./img/poaching activity.png"
+  media: "./img/three sites-03.png"
   position: left
   layers:
   - id: 'shoreline_type'
