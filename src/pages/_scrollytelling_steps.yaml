@@ -99,7 +99,7 @@
   pitch: 0
   bearing: 0
   description: JFK Airport has long been a significant nesting site for diamondback terrapins. Constructed on sandy grounds created by transported fill, the airport inadvertently provides ideal nesting conditions. However, this has led to frequent terrapin incursions onto the runways in search of nesting sites. These incidents not only disrupt air traffic but also pose significant risks to the terrapins’ safety.
-  media: "./img/bulkhead houses-01 smaller.jpg"
+  media: "./img/terrapin crossing airport.jpg"
   position: left
   layers:
   - id: 'shoreline_type'
@@ -176,3 +176,12 @@
       circle-radius: 5
       circle-color: '#BF5365'
       circle-opacity: 0.8 
+
+- title: Terrapin is a Wetland
+  center: [-73.83996, 40.61467]
+  zoom: 12.5
+  pitch: 0
+  bearing: 0
+  description: Viewing Jamaica Bay from the perspective of diamondback terrapins underscores the need to rethink how we use land and coexist with other species. The terrapins’ dual reliance on land and water reveals the critical importance of preserving natural transitions and addressing human-made barriers, such as hard shorelines and habitat fragmentation. By tackling these challenges, including the threat of poaching, we can protect the terrapins' nesting grounds and contribute to the long-term health and balance of Jamaica Bay's ecosystem.
+  media: "./img/turtle detailed drawing_solid line and color-03 - Copy.png"
+  position: bottom-left
